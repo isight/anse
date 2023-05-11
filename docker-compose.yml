@@ -1,4 +1,4 @@
-version: '3'
+version: '4'
 services:
   anse-demo:
     image: ddiu8081/anse:latest
