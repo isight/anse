@@ -2,7 +2,7 @@
 
 # Anse
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README_JA-JP.md)
 
 Anse 是一个极致优化的 AI 聊天 UI.
 
@@ -47,6 +47,12 @@ Anse 是一个极致优化的 AI 聊天 UI.
 
 获取更多信息，请参考部署文档: https://docs.anse.app/self-deploy
 
+## 开启同步更新
+
+Fork 项目后，您需要在 Fork 项目的操作页面上手动启用工作流和上游同步操作。启用后，每天都会执行自动更新:
+
+![](https://cdn.staticaly.com/gh/yzh990918/static@master/20230518/image.2omctdf8bbk0.webp)
+
 ## 常见问题
 
 Q: TypeError: fetch failed (can't connect to OpenAI Api)
@@ -60,10 +66,6 @@ A: Node 版本需要在 `v18` 或者更高，参考: https://github.com/anse-app
 Q: 无需代理部署教程即可加速国内访问？?
 
 A: 你可以参考此教程: https://github.com/anse-app/chatgpt-demo/discussions/270
-
-Q: `PWA` 不工作？
-
-A: 当前的 PWA 不支持 Netlify 部署，您可以选择 vercel 或 node 部署。
 
 ## 参与贡献
 
